@@ -14,7 +14,7 @@ fancybox: true # whether or not to load the fancybox library
 
 # Integrations
 disqus_shortname: 
-google_analytics:
+google_analytics: hoge
 google_tag_manager: GTM-W5JQXR2
 swiftype_install_key: 
 

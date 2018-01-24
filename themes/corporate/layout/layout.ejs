@@ -1,11 +1,11 @@
 <%- partial('_partial/head') %>
 <body class="corporate">
-<%- if (theme.google_analytics){ %>
+<%_ if (theme.google_tag_manager){ _%>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W5JQXR2"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<%- } %>
+<%_ } _%>
   <%- partial('_partial/header', null, { path: path }) %>
   <%- body %>
   <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
